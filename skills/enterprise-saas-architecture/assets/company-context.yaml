@@ -1,0 +1,42 @@
+# Copy into an engagement and fill only known facts. null/[] means unknown,
+# not absent or out of scope. Never store credentials, raw consumer records,
+# privileged legal advice, or material nonpublic details here.
+schema_version: "1.0"
+profile: "general"  # or automotive-us-public
+confirmed_profile:
+  confirmed_on: null
+  headquarters_context: null
+  industry: null
+  business_model: null
+  preferred_cloud: "GCP"
+  market_regions: []
+  technology_posture: "Forward-looking, evidence-based adoption"
+engagement:
+  name: null
+  mode: null  # baseline, deep_dive, decision, coaching, roadmap, reassessment
+  objective: null
+  decision_needed: null
+  date: null
+  evidence_period: null
+  systems_in_scope: []
+  exclusions: []
+  critical_journeys: []
+  countries_states_provinces: []
+  legal_entities_and_roles: []
+  tenant_hierarchy: null
+  actor_vehicle_relationships: null
+  data_categories_and_purposes: []
+  cloud_services_and_regions: []
+  customer_commitments: []
+  slo_rto_rpo_and_basis: []
+  scale_and_growth_assumptions: []
+  financial_reporting_dependencies: []
+  issuer_filer_status: null
+  confirmed_control_scope_and_owner: null
+  ai_uses_and_data_permissions: []
+  existing_standards_and_exceptions: []
+  team_capacity_and_budget: null
+  evidence_locations: []
+  source_versions_and_access_dates: []
+  unverified_assumptions: []
+  open_decisions_and_role_owners: []
