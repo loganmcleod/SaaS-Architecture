@@ -1,0 +1,4 @@
+interface:
+  display_name: "Enterprise SaaS Architecture"
+  short_description: "GCP-first SaaS assessments and leadership guidance"
+  default_prompt: "Use $enterprise-saas-architecture to assess our SaaS platform, identify evidence-backed gaps and opportunities, and propose a leadership action plan."
